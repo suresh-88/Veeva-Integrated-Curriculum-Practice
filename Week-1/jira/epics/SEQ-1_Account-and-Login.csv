@@ -1,0 +1,97 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project lead id,Project description,Priority,Resolution,Assignee,Assignee Id,Reporter,Reporter Id,Creator,Creator Id,Created,Updated,Last Viewed,Resolved,Due date,Votes,Labels,Labels.1,Description,Environment,Watchers,Watchers Id,Original estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Inward issue link (Test),Outward issue link (Test),Custom field (Actual end),Custom field (Actual start),Custom field (Affected hardware),Custom field (Affected services),Custom field (Approvals),Custom field (Atlassian Project),Custom field (Change reason),Custom field (Change risk),Custom field (Change type),Custom field (Development),Custom field (Epic Color),Custom field (Epic Name),Custom field (Epic Status),Custom field (Focus Areas),Custom field (Goals),Custom field (Impact),Custom field (Incident manager),Custom field (Insights),Custom field (Issue color),Custom field (Locked forms),Custom field (Major incident),Custom field (Open forms),Custom field (Pending reason),Custom field (Project overview key),Custom field (Project overview status),Custom field (Rank),Custom field (Request Type),Custom field (Request language),Custom field (Request participants),Custom field (Responders),Satisfaction rating,Custom field (Satisfaction date),Custom field (Sentiment),Custom field (Severity),Sprint,Sprint.1,Custom field (Start date),Custom field (Status pages),Custom field (Story Points),Custom field (Story point estimate),Custom field (Submitted forms),Custom field (Target end),Custom field (Target start),Custom field (Team),Custom field (Time to close after resolution),Custom field (Time to first response),Custom field (Time to resolution),Custom field (Total forms),Custom field (Urgency),Custom field (Work category),Custom field (Work item created forms),Custom field ([CHART] Date of First Response),Custom field ([CHART] Time in Status),Parent,Parent key,Parent summary,Status category,Status category changed
+Account and Login,SEQ-1,10015,Epic,To Do,SEQ,ShopEasy QA,software,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,Medium,,,,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,26/Oct/26 9:42 AM,26/Oct/26 9:42 AM,,,,0,,,"h3. Objective
+
+Improve the account and login experience.
+
+h3. Context
+
+The issue is titled ""Account and Login"".
+
+h3. Scope
+
+* Account-related functionality
+* Login-related functionality
+
+h3. Success criteria
+
+* Account and login work as expected
+
+h3. Risks and dependencies
+
+* N/A
+
+h3. Other information
+
+* Issue name: Account and Login",,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,,,,,,,,,,,,,,ApprovalsCFValue{approvals=[]},,,,,{},ghx-label-3,,To Do,,,,,,yellow,,,,,,,0|i0003b:,,,,,,,,,,,26/Oct/26 12:00 AM,,,,,,,,,,,,,,,,,,,,To Do,26/Oct/26 9:42 AM
+"As a new user, I need to register in the app so I can use it.",SEQ-4,10018,Story,Done,SEQ,ShopEasy QA,software,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,Medium,,,,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,26/Oct/26 9:51 AM,09/Nov/26 7:31 PM,27/Oct/26 11:29 AM,,,0,REQ-A1,,"h3. User story
+
+As a new user, when I want to use the app, I want to register myself with my full name, email, and password so that I can access the app.
+
+h3. Context
+
+New users need a way to create an account in the app.
+
+h3. Acceptance criteria
+
+* New users can register themselves in the app.
+* The registration form includes:
+** Full name
+** Email
+** Password
+* The Email should be unique.
+*  The password must have at least 8 characters, with at least one number and one special character.
+
+h3. Other information
+
+This story comes under requirement REQ-A1.",,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,,,,,,,,SEQ-24,,,,,,ApprovalsCFValue{approvals=[]},,,,,{},,,,,,,,,,,,,,,,0|i0003o:4,,,,,,,,,SEQ Sprint 1,,,,5.0,,,,,,,,,,,,,,,10015.0,SEQ-1,Account and Login,Done,09/Nov/26 7:31 PM
+"As a registered customer, I want to log in with my email and password, so that I can access my account",SEQ-5,10019,Story,Done,SEQ,ShopEasy QA,software,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,Medium,,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,26/Oct/26 9:55 AM,09/Nov/26 7:31 PM,27/Oct/26 10:45 AM,,,0,REQ-A2,REQ-A3,"h3. User story
+
+As a registered customer, when I want to access my account, I want to log in with my email and password so that I can access my account.
+
+h3. Context
+
+This issue describes the need for a customer login flow using email and password.
+
+h3. Acceptance criteria
+
+* A registered customer can log in with their email and password.
+* After successful login, the customer can go to home page and access their account.
+* If given wrong credentials, app should display ""Invalid email or password"" message.
+* After 5 consecutive failed login attempts the account should be locked for 15 minutes.
+
+h3. Other information
+
+This story comes under requirements REQ-A2,REQ-A3.",,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,,,,,,,,,,,,,,ApprovalsCFValue{approvals=[]},,,,,{},,,,,,,,,,,,,,,,0|i0003o:9,,,,,,,,,SEQ Sprint 1,,26/Oct/26 12:00 AM,,3.0,,,,,,,,,,,,,,,10015.0,SEQ-1,Account and Login,Done,09/Nov/26 7:31 PM
+"As a registered user, I can reset my password when I forgot it so that I can access my account.",SEQ-6,10020,Story,Done,SEQ,ShopEasy QA,software,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,Medium,,,,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,26/Oct/26 10:00 AM,09/Nov/26 7:31 PM,27/Oct/26 10:47 AM,,,0,REQ-A4,,"h3. User story
+
+As a registered user, when I forgot my password, I want to reset it so that I can access my account.
+
+h3. Context
+
+The user should receive a reset password link by email.
+
+h3. Acceptance criteria
+
+* The reset password link is sent to the user's email.
+* The link can be used only once.
+* The link is valid for 30 minutes.
+
+h3. Other information
+
+This story comes under requirement REQ-A4.",,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,,,,,,,,,,,,,,ApprovalsCFValue{approvals=[]},,,,,{},,,,,,,,,,,,,,,,0|i0003o:d,,,,,,,,,SEQ Sprint 1,,26/Oct/26 12:00 AM,,5.0,,,,,,,,,,,,,,,10015.0,SEQ-1,Account and Login,Done,09/Nov/26 7:31 PM
+"As a logged in user, I can log out of my account so that I can end my session.",SEQ-7,10021,Story,Testing,SEQ,ShopEasy QA,software,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,Medium,,,,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,26/Oct/26 10:03 AM,09/Nov/26 7:33 PM,27/Oct/26 10:48 AM,,,0,REQ-A5,,"h3. User story
+
+As a logged in user, when I want to end my session, I want to log out of my account so that I can finish using the app securely.
+
+h3. Context
+
+Logged in users need a way to log out of their account.
+
+h3. Acceptance criteria
+
+* The user can log out of their account.
+* Pressing the browser Back button must not show account pages.
+
+h3. Other information
+
+This story comes under requirement REQ-A5.",,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,,,,,,,,,,,,,,ApprovalsCFValue{approvals=[]},,,,,{},,,,,,,,,,,,,,,,0|i00048:,,,,,,,,,SEQ Sprint 2,SEQ Sprint 3,26/Oct/26 12:00 AM,,3.0,,,,,,,,,,,,,,,10015.0,SEQ-1,Account and Login,In Progress,09/Nov/26 7:31 PM

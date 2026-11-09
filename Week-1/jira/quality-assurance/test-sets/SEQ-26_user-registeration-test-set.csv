@@ -1,0 +1,16 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project lead id,Project description,Priority,Resolution,Assignee,Assignee Id,Reporter,Reporter Id,Creator,Creator Id,Created,Updated,Last Viewed,Resolved,Due date,Votes,Labels,Labels.1,Description,Environment,Watchers,Watchers Id,Original estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Inward issue link (Test),Outward issue link (Test),Custom field (Actual end),Custom field (Actual start),Custom field (Affected hardware),Custom field (Affected services),Custom field (Approvals),Custom field (Atlassian Project),Custom field (Change reason),Custom field (Change risk),Custom field (Change type),Custom field (Development),Custom field (Epic Color),Custom field (Epic Name),Custom field (Epic Status),Custom field (Focus Areas),Custom field (Goals),Custom field (Impact),Custom field (Incident manager),Custom field (Insights),Custom field (Issue color),Custom field (Locked forms),Custom field (Major incident),Custom field (Open forms),Custom field (Pending reason),Custom field (Project overview key),Custom field (Project overview status),Custom field (Rank),Custom field (Request Type),Custom field (Request language),Custom field (Request participants),Custom field (Responders),Satisfaction rating,Custom field (Satisfaction date),Custom field (Sentiment),Custom field (Severity),Sprint,Sprint.1,Custom field (Start date),Custom field (Status pages),Custom field (Story Points),Custom field (Story point estimate),Custom field (Submitted forms),Custom field (Target end),Custom field (Target start),Custom field (Team),Custom field (Time to close after resolution),Custom field (Time to first response),Custom field (Time to resolution),Custom field (Total forms),Custom field (Urgency),Custom field (Work category),Custom field (Work item created forms),Custom field ([CHART] Date of First Response),Custom field ([CHART] Time in Status),Parent,Parent key,Parent summary,Status category,Status category changed
+user registeration test set,SEQ-26,10072,Test Set,To Do,SEQ,ShopEasy QA,software,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,Medium,,,,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,09/Nov/26 7:25 PM,09/Nov/26 7:25 PM,09/Nov/26 7:25 PM,,,0,,,"h3. Summary
+
+user registeration test set
+
+h3. Context
+
+user registeration test set
+
+h3. Acceptance criteria
+
+N/A
+
+h3. Other information
+
+N/A",,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,,,,,,,,,,,,,,ApprovalsCFValue{approvals=[]},,,,,{},,,,,,,,,,,,,,,,0|i00075:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,09/Nov/26 7:25 PM

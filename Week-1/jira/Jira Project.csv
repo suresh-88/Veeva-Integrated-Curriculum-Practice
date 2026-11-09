@@ -1,0 +1,594 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project lead id,Project description,Priority,Resolution,Assignee,Assignee Id,Reporter,Reporter Id,Creator,Creator Id,Created,Updated,Last Viewed,Resolved,Due date,Votes,Labels,Labels,Description,Environment,Watchers,Watchers Id,Original estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Inward issue link (Test),Outward issue link (Test),Custom field (Actual end),Custom field (Actual start),Custom field (Affected hardware),Custom field (Affected services),Custom field (Approvals),Custom field (Atlassian Project),Custom field (Change reason),Custom field (Change risk),Custom field (Change type),Custom field (Development),Custom field (Epic Color),Custom field (Epic Name),Custom field (Epic Status),Custom field (Focus Areas),Custom field (Goals),Custom field (Impact),Custom field (Incident manager),Custom field (Insights),Custom field (Issue color),Custom field (Locked forms),Custom field (Major incident),Custom field (Open forms),Custom field (Pending reason),Custom field (Project overview key),Custom field (Project overview status),Custom field (Rank),Custom field (Request Type),Custom field (Request language),Custom field (Request participants),Custom field (Responders),Satisfaction rating,Custom field (Satisfaction date),Custom field (Sentiment),Custom field (Severity),Sprint,Sprint,Custom field (Start date),Custom field (Status pages),Custom field (Story Points),Custom field (Story point estimate),Custom field (Submitted forms),Custom field (Target end),Custom field (Target start),Custom field (Team),Custom field (Time to close after resolution),Custom field (Time to first response),Custom field (Time to resolution),Custom field (Total forms),Custom field (Urgency),Custom field (Work category),Custom field (Work item created forms),Custom field ([CHART] Date of First Response),Custom field ([CHART] Time in Status),Parent,Parent key,Parent summary,Status category,Status category changed
+Account and Login,SEQ-1,10015,Epic,To Do,SEQ,ShopEasy QA,software,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,Medium,,,,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,26/Oct/26 9:42 AM,26/Oct/26 9:42 AM,,,,0,,,"h3. Objective
+
+Improve the account and login experience.
+
+h3. Context
+
+The issue is titled ""Account and Login"".
+
+h3. Scope
+
+* Account-related functionality
+* Login-related functionality
+
+h3. Success criteria
+
+* Account and login work as expected
+
+h3. Risks and dependencies
+
+* N/A
+
+h3. Other information
+
+* Issue name: Account and Login",,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,,,,,,,,,,,,,,ApprovalsCFValue{approvals=[]},,,,,{},ghx-label-3,,To Do,,,,,,yellow,,,,,,,0|i0003b:,,,,,,,,,,,26/Oct/26 12:00 AM,,,,,,,,,,,,,,,,,,,,To Do,26/Oct/26 9:42 AM
+Browse and Search,SEQ-2,10016,Epic,To Do,SEQ,ShopEasy QA,software,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,Medium,,,,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,26/Oct/26 9:44 AM,26/Oct/26 9:44 AM,,,,0,,,"h3. Objective
+
+Enable users to browse and search products in the shopping app.
+
+h3. Context
+
+The app is a shopping app. It needs product discovery features for users.
+
+h3. Scope
+
+* Browse products
+* Search products
+* Filter products
+* Show stock status
+
+h3. Success criteria
+
+* Users can browse products
+* Users can search for products
+* Users can filter products
+* Users can see stock status for products
+
+h3. Risks and dependencies
+
+N/A
+
+h3. Other information
+
+N/A",,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,,,,,,,,,,,,,,ApprovalsCFValue{approvals=[]},,,,,{},ghx-label-11,,To Do,,,,,,teal,,,,,,,0|i0003e:,,,,,,,,,,,26/Oct/26 12:00 AM,,,,,,,,,,,,,,,,,,,,To Do,26/Oct/26 9:44 AM
+Cart and Checkout,SEQ-3,10017,Epic,To Do,SEQ,ShopEasy QA,software,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,Medium,,,,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,26/Oct/26 9:47 AM,26/Oct/26 9:47 AM,,,,0,,,"h3. Objective
+
+Provide cart and checkout functionality for the shopping app.
+
+h3. Context
+
+The app is a shopping app. It needs support for the purchase flow.
+
+h3. Scope
+
+Included:
+
+* Add products to the cart
+* Remove products from the cart
+* Order products in quantities
+* Enter and update shipping details
+* Pay using different payment types
+
+Not included:
+
+* N/A
+
+h3. Success criteria
+
+* Users can add products to a cart.
+* Users can remove products from a cart.
+* Users can set quantities for products in the cart.
+* Users can enter shipping details.
+* Users can update shipping details.
+* Users can pay using different payment types.
+
+h3. Risks and dependencies
+
+* Payment options must support different types of payment.
+* Checkout depends on shipping details being available and editable.
+
+h3. Other information
+
+* Issue name: Cart and Checkout",,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,,,,,,,,,,,,,,ApprovalsCFValue{approvals=[]},,,,,{},ghx-label-6,,To Do,,,,,,green,,,,,,,0|i0003o:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,26/Oct/26 9:47 AM
+"As a new user, I need to register in the app so I can use it.",SEQ-4,10018,Story,Done,SEQ,ShopEasy QA,software,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,Medium,,,,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,26/Oct/26 9:51 AM,09/Nov/26 7:31 PM,27/Oct/26 11:29 AM,,,0,REQ-A1,,"h3. User story
+
+As a new user, when I want to use the app, I want to register myself with my full name, email, and password so that I can access the app.
+
+h3. Context
+
+New users need a way to create an account in the app.
+
+h3. Acceptance criteria
+
+* New users can register themselves in the app.
+* The registration form includes:
+** Full name
+** Email
+** Password
+* The Email should be unique.
+*  The password must have at least 8 characters, with at least one number and one special character.
+
+h3. Other information
+
+This story comes under requirement REQ-A1.",,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,,,,,,,,SEQ-24,,,,,,ApprovalsCFValue{approvals=[]},,,,,{},,,,,,,,,,,,,,,,0|i0003o:4,,,,,,,,,SEQ Sprint 1,,,,5.0,,,,,,,,,,,,,,,10015,SEQ-1,Account and Login,Done,09/Nov/26 7:31 PM
+"As a registered customer, I want to log in with my email and password, so that I can access my account",SEQ-5,10019,Story,Done,SEQ,ShopEasy QA,software,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,Medium,,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,26/Oct/26 9:55 AM,09/Nov/26 7:31 PM,27/Oct/26 10:45 AM,,,0,REQ-A2,REQ-A3,"h3. User story
+
+As a registered customer, when I want to access my account, I want to log in with my email and password so that I can access my account.
+
+h3. Context
+
+This issue describes the need for a customer login flow using email and password.
+
+h3. Acceptance criteria
+
+* A registered customer can log in with their email and password.
+* After successful login, the customer can go to home page and access their account.
+* If given wrong credentials, app should display ""Invalid email or password"" message.
+* After 5 consecutive failed login attempts the account should be locked for 15 minutes.
+
+h3. Other information
+
+This story comes under requirements REQ-A2,REQ-A3.",,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,,,,,,,,,,,,,,ApprovalsCFValue{approvals=[]},,,,,{},,,,,,,,,,,,,,,,0|i0003o:9,,,,,,,,,SEQ Sprint 1,,26/Oct/26 12:00 AM,,3.0,,,,,,,,,,,,,,,10015,SEQ-1,Account and Login,Done,09/Nov/26 7:31 PM
+"As a registered user, I can reset my password when I forgot it so that I can access my account.",SEQ-6,10020,Story,Done,SEQ,ShopEasy QA,software,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,Medium,,,,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,26/Oct/26 10:00 AM,09/Nov/26 7:31 PM,27/Oct/26 10:47 AM,,,0,REQ-A4,,"h3. User story
+
+As a registered user, when I forgot my password, I want to reset it so that I can access my account.
+
+h3. Context
+
+The user should receive a reset password link by email.
+
+h3. Acceptance criteria
+
+* The reset password link is sent to the user's email.
+* The link can be used only once.
+* The link is valid for 30 minutes.
+
+h3. Other information
+
+This story comes under requirement REQ-A4.",,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,,,,,,,,,,,,,,ApprovalsCFValue{approvals=[]},,,,,{},,,,,,,,,,,,,,,,0|i0003o:d,,,,,,,,,SEQ Sprint 1,,26/Oct/26 12:00 AM,,5.0,,,,,,,,,,,,,,,10015,SEQ-1,Account and Login,Done,09/Nov/26 7:31 PM
+"As a user, when I view each product card, I want to see the image, name, and price so that I can identify the product details quickly.",SEQ-9,10023,Story,Done,SEQ,ShopEasy QA,software,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,Medium,,,,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,26/Oct/26 10:17 AM,09/Nov/26 7:32 PM,27/Oct/26 12:07 PM,,,0,REQ-B1,,"h3. User story
+
+As a user, when I view each product card, I want to see the image, name, price, description, and stock status so that I can identify the product details quickly.
+
+h3. Context
+
+This issue is about product cards. The user wants key product details to be visible at a glance.
+
+h3. Acceptance criteria
+
+* Each product card shows the image.
+* Each product card shows the name.
+* Each product card shows the price.
+* Each product card shows the description.
+* Each product card shows the stock status as In Stock or Out of Stock.
+
+h3. Other information
+
+* This story comes under requirement REQ-B1.",,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,,,,,,,,,,,,,,ApprovalsCFValue{approvals=[]},,,,,{},,,,,,,,,,,,,,,,0|i0003p:,,,,,,,,,SEQ Sprint 2,,,,5.0,,,,,,,,,,,,,,,10016,SEQ-2,Browse and Search,Done,09/Nov/26 7:32 PM
+"As a user, when a product is out of stock, I want the Add to Cart button to be disabled so that I cannot add unavailable products.",SEQ-12,10026,Story,Done,SEQ,ShopEasy QA,software,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,Medium,,,,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,26/Oct/26 10:38 AM,09/Nov/26 7:32 PM,27/Oct/26 10:48 AM,,,0,REQ-B5,,"h3. User story
+
+As a user, when a product is out of stock, I want the Add to Cart button to be disabled so that I cannot add unavailable products.
+
+h3. Context
+
+Users should not be able to add out-of-stock products to the cart.
+
+h3. Acceptance criteria
+
+* The users should know the stock status always.
+* The Add to Cart button is disabled when a product is out of stock.
+* Users cannot add unavailable products to the cart.
+
+h3. Other information
+
+This story comes under requirement REQ-B5.",,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,,,,,,,,,,,,,,ApprovalsCFValue{approvals=[]},,,,,{},,,,,,,,,,,,,,,,0|i0003p:i,,,,,,,,,SEQ Sprint 2,,,,5.0,,,,,,,,,,,,,,,10016,SEQ-2,Browse and Search,Done,09/Nov/26 7:32 PM
+"As a logged in user, I can log out of my account so that I can end my session.",SEQ-7,10021,Story,Testing,SEQ,ShopEasy QA,software,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,Medium,,,,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,26/Oct/26 10:03 AM,09/Nov/26 7:33 PM,27/Oct/26 10:48 AM,,,0,REQ-A5,,"h3. User story
+
+As a logged in user, when I want to end my session, I want to log out of my account so that I can finish using the app securely.
+
+h3. Context
+
+Logged in users need a way to log out of their account.
+
+h3. Acceptance criteria
+
+* The user can log out of their account.
+* Pressing the browser Back button must not show account pages.
+
+h3. Other information
+
+This story comes under requirement REQ-A5.",,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,,,,,,,,,,,,,,ApprovalsCFValue{approvals=[]},,,,,{},,,,,,,,,,,,,,,,0|i00048:,,,,,,,,,SEQ Sprint 2,SEQ Sprint 3,26/Oct/26 12:00 AM,,3.0,,,,,,,,,,,,,,,10015,SEQ-1,Account and Login,In Progress,09/Nov/26 7:31 PM
+"As a logged-in user, when I am ready to buy, I want to enter all shipping details and then place an order so that I can complete my purchase.",SEQ-16,10030,Story,Review,SEQ,ShopEasy QA,software,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,Medium,,,,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,26/Oct/26 11:04 AM,09/Nov/26 7:33 PM,27/Oct/26 10:49 AM,,,0,REQ-C5,,"h3. User story
+
+As a customer, when I use checkout, I want to log in before continuing so that I can place an order without guest checkout.
+
+As a customer, when I enter shipping details, I want all required fields to be validated so that I can complete checkout correctly.
+
+h3. Context
+
+Checkout requires login. Guest checkout is not allowed.
+
+Shipping details are mandatory.
+
+h3. Acceptance criteria
+
+* Login is required for checkout.
+* Guest checkout is not available.
+* Shipping details must be mandatory.
+* Name is required.
+* Phone number is required and must be 10 digits.
+* Address is required.
+* City is required.
+* Pin code is required and must be 6 digits.
+
+h3. Other information
+
+This story comes under requirement REQ-C5.",,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,,,,,,,,,,,,,,ApprovalsCFValue{approvals=[]},,,,,{},,,,,,,,,,,,,,,,0|i00048:6,,,,,,,,,SEQ Sprint 2,SEQ Sprint 3,,,3.0,,,,,,,,,,,,,,,10017,SEQ-3,Cart and Checkout,In Progress,09/Nov/26 7:31 PM
+"As a logged in customer, when I place an order, I want a confirmation page to show a unique Order ID and a confirmation email to be sent so that I know my order was received.",SEQ-18,10032,Story,To Do,SEQ,ShopEasy QA,software,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,Medium,,,,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,26/Oct/26 11:11 AM,27/Oct/26 12:06 PM,27/Oct/26 10:49 AM,,,0,REQ-C6,,"h3. User story
+
+As a logged in customer, when I place an order, I want a confirmation page to show a unique Order ID and a confirmation email to be sent so that I know my order was received.
+
+h3. Context
+
+A customer places an order while logged in. The system should confirm the order on the page and by email.
+
+h3. Acceptance criteria
+
+* When a logged in customer places an order, a confirmation page is shown.
+* The confirmation page includes a unique Order ID.
+* A confirmation email is sent after the order is placed.
+
+h3. Other information
+
+This comes under requirement REQ-C6.",,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,,,,,,,,,,,,,,ApprovalsCFValue{approvals=[]},,,,,{},,,,,,,,,,,,,,,,0|i00048:7,,,,,,,,,SEQ Sprint 3,,,,5.0,,,,,,,,,,,,,,,10017,SEQ-3,Cart and Checkout,To Do,26/Oct/26 11:11 AM
+"As a logged in customer, when I place an order, I want to pay by Card, UPI, or Cash on Delivery so that I can complete my purchase.",SEQ-17,10031,Story,To Do,SEQ,ShopEasy QA,software,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,Medium,,,,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,26/Oct/26 11:09 AM,27/Oct/26 12:06 PM,27/Oct/26 10:49 AM,,,0,REQ-C6,,"h3. User story
+
+As a logged in customer, when I place an order, I want to pay by Card, UPI, or Cash on Delivery so that I can complete my purchase.
+
+h3. Context
+
+A logged in customer is placing an order and needs payment options to complete the purchase.
+
+h3. Acceptance criteria
+
+* The customer can pay by Card.
+* The customer can pay by UPI.
+* The customer can pay by Cash on Delivery.
+* The customer can complete the purchase after choosing one of these payment methods.
+
+h3. Other information
+
+This comes under requirement REQ-C6.",,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,,,,,,,,,,,,,,ApprovalsCFValue{approvals=[]},,,,,{},,,,,,,,,,,,,,,,0|i00048:9,,,,,,,,,SEQ Sprint 3,,,,5.0,,,,,,,,,,,,,,,10017,SEQ-3,Cart and Checkout,To Do,26/Oct/26 11:09 AM
+"As a user, when I browse products, I want to filter products by category and by price range and also sort them by name and price so that I can find the products I want more easily.",SEQ-11,10025,Story,To Do,SEQ,ShopEasy QA,software,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,Medium,,,,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,26/Oct/26 10:31 AM,27/Oct/26 12:08 PM,27/Oct/26 12:07 PM,,,0,REQ-B3,REQ-B4,"h3. User story
+
+As a user, when I browse products, I want to filter products by category and by price range and also sort them by name and price a-z,low-high,high-low so that I can find the products I want more easily.
+
+h3. Context
+
+Users need to filter products using category and price. Both filters should work together.
+
+h3. Acceptance criteria
+
+* Users can filter products by category.
+* Users can filter products by price range.
+* The price range filter includes both minimum and maximum values.
+* Category and price range filters can be used together.
+* Users can sort the results of those filters.
+
+h3. Other information
+
+This story comes under requirements REQ-B3,ReQ-B4.",,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,,,,,,,,,,,,,,ApprovalsCFValue{approvals=[]},,,,,{},,,,,,,,,,,,,,,,0|i0004q:,,,,,,,,,SEQ Sprint 3,,,,5.0,,,,,,,,,,,,,,,10016,SEQ-2,Browse and Search,To Do,26/Oct/26 10:31 AM
+"As a user, I can search for products using the product name so that I can find them easily.",SEQ-10,10024,Story,To Do,SEQ,ShopEasy QA,software,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,Medium,,,,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,26/Oct/26 10:25 AM,27/Oct/26 10:51 AM,27/Oct/26 10:51 AM,,,0,REQ-B2,,"h3. User story
+
+As a user, when I want to find a product, I want to search for products using the product name so that I can find them easily.
+
+h3. Context
+
+Users need a way to search for products by name.
+
+h3. Acceptance criteria
+
+* Search should work using the product name.
+* Search should not be case-sensitive.
+* If nothing matches, the message ""No products found"" is shown.
+
+h3. Other information
+
+This story comes under requirement REQ-B2.",,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,,,,,,,,,,,,,,ApprovalsCFValue{approvals=[]},,,,,{},,,,,,,,,,,,,,,,0|i00058:,,,,,,,,,,,,,3.0,,,,,,,,,,,,,,,10016,SEQ-2,Browse and Search,To Do,26/Oct/26 10:25 AM
+"As a logged in shopper, I want the cart icon to show the total number of items in the cart so that I can know how many items I have in it.",SEQ-13,10027,Story,To Do,SEQ,ShopEasy QA,software,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,Medium,,,,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,26/Oct/26 10:51 AM,27/Oct/26 10:51 AM,27/Oct/26 10:51 AM,,,0,REQ-C1,REQ-C3,"h3. User story
+
+* As a logged-in shopper, when I add and remove items from my cart, I want the cart icon to show the total number of items in the cart so that I can quickly see how many items I have.
+* As a logged in shopper, when my cart is empty, I want to see a message so that I know there are no items in the cart.
+
+h3. Context
+
+The cart should give a clear visual indication of how many items are in it. It should also show an empty-cart message when there are no items.
+
+h3. Acceptance criteria
+
+* The cart icon shows the total number of items in the cart.
+* The cart icon updates when items are added.
+* The cart icon updates when items are removed.
+* When the cart is empty, a message is shown.
+* The empty-cart message indicates that there are no items in the cart.
+
+h3. Other information
+
+* This story comes under requirements REQ-C1,REQ-C3.",,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,,,,,,,,,,,,,,ApprovalsCFValue{approvals=[]},,,,,{},,,,,,,,,,,,,,,,0|i0005c:,,,,,,,,,,,,,2.0,,,,,,,,,,,,,,,10017,SEQ-3,Cart and Checkout,To Do,26/Oct/26 10:51 AM
+"As a user, when I view the product list, I want to see 12 products per page with pagination so that I can review, access, compare, and cart them.",SEQ-8,10022,Story,To Do,SEQ,ShopEasy QA,software,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,Medium,,,,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,26/Oct/26 10:15 AM,27/Oct/26 10:51 AM,27/Oct/26 10:51 AM,,,0,REQ-B1,,"h3. User story
+
+As a user, when I view the product list, I want to see 12 products per page with pagination so that I can review, access, compare, and cart them.
+
+h3. Context
+
+The issue is about the product list view. It needs pagination and a fixed number of products per page.
+
+h3. Acceptance criteria
+
+* The product list shows 12 products per page.
+* Pagination is available on the product list.
+* Users can review products from the list.
+* Users can access products from the list.
+* Users can compare products from the list.
+* Users can add products to cart from the list.
+
+h3. Other information
+
+This comes under requirement REQ-B1.",,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,,,,,,,,,,,,,,ApprovalsCFValue{approvals=[]},,,,,{},,,,,,,,,,,,,,,,0|i0005g:,,,,,,,,,,,26/Oct/26 12:00 AM,,3.0,,,,,,,,,,,,,,,10016,SEQ-2,Browse and Search,To Do,26/Oct/26 10:15 AM
+"As a logged-in shopper, when I have items in my cart, I want to change the quantity of each item from 1 to 10 or remove items from the cart so that the line total is updated correctly.",SEQ-14,10028,Story,To Do,SEQ,ShopEasy QA,software,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,Medium,,,,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,26/Oct/26 10:54 AM,27/Oct/26 10:52 AM,27/Oct/26 10:51 AM,,,0,REQ-C2,,"h3. User story
+
+As a logged-in shopper, when I have items in my cart, I want to change the quantity of each item from 1 to 10 or remove items from the cart so that the line total is updated correctly.
+
+h3. Context
+
+Each item in the cart supports a quantity range from 1 to 10.
+
+h3. Acceptance criteria
+
+* Each item in the cart can have a quantity from 1 to 10.
+* Changing the quantity updates the line total.
+* Removing an item from the cart updates the line total.
+
+h3. Other information
+
+This story comes under requirement REQ-C2.",,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,,,,,,,,,,,,,,ApprovalsCFValue{approvals=[]},,,,,{},,,,,,,,,,,,,,,,0|i0005o:,,,,,,,,,,,,,3.0,,,,,,,,,,,,,,,10017,SEQ-3,Cart and Checkout,To Do,26/Oct/26 10:54 AM
+"As a logged in user, when I have a cart value of Rs. 1,000 or more, I want to apply coupon code SAVE10 so that I can get a 10% discount.",SEQ-15,10029,Story,To Do,SEQ,ShopEasy QA,software,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,Medium,,,,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,26/Oct/26 10:57 AM,27/Oct/26 10:52 AM,27/Oct/26 10:52 AM,,,0,REQ-C4,,"h3. User story
+
+As a logged in user, when I have a cart value of Rs. 1,000 or more, I want to apply coupon code SAVE10 so that I can get a 10% discount.
+
+h3. Context
+
+Users can apply a coupon during checkout. The coupon code is SAVE10.
+
+h3. Acceptance criteria
+
+* The coupon code SAVE10 can be applied by a logged in user.
+* The coupon gives a 10% discount.
+* The discount applies only when the cart value is Rs. 1,000 or more.
+* Only one coupon can be used per order.
+
+h3. Other information
+
+This story comes under requirement REQ-C4.",,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,,,,,,,,,,,,,,ApprovalsCFValue{approvals=[]},,,,,{},,,,,,,,,,,,,,,,0|i0005w:,,,,,,,,,,,,,2.0,,,,,,,,,,,,,,,10017,SEQ-3,Cart and Checkout,To Do,26/Oct/26 10:57 AM
+PRE01 - Customer account must be registered,SEQ-19,10033,Precondition,To Do,SEQ,ShopEasy QA,software,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,Medium,,,,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,31/Oct/26 10:39 AM,31/Oct/26 10:39 AM,31/Oct/26 11:08 AM,,,0,,,"h3. Summary
+
+Before running customer login test cases, the customer account must be properly set up and accessible in QA.
+
+h3. Context
+
+This issue describes the prerequisites needed before executing customer login test cases.
+
+h3. Acceptance criteria
+
+* Customer must have an account in the application.
+* Customer account must be active.
+* Customer email must be registered.
+* Tester must know the valid test credentials.
+* Customer login application must be accessible in QA.
+
+h3. Other information
+
+Test data:
+
+* Email: customer @gmail.com
+* Password: customer@123
+
+Environment: QA",,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,,,,,,,,,,,,,,ApprovalsCFValue{approvals=[]},,,,,{},,,,,,,,,,,,,,,,0|i0005y:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,31/Oct/26 10:39 AM
+Register with valid details,SEQ-23,10037,Xray Test,To Do,SEQ,ShopEasy QA,software,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,Medium,,,,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,31/Oct/26 12:12 PM,31/Oct/26 12:12 PM,04/Nov/26 6:24 AM,,,0,TC-01,,"h3. Summary
+
+Registering with valid details should successfully create an account.
+
+h3. Context
+
+The issue is about the registration flow.
+
+h3. Acceptance criteria
+
+* Registering with a valid email should work.
+* The password must be strong.
+* The password should contain:
+** at least 8 characters
+** at least one special character
+** at least one capital letter
+** at least one number
+* A valid registration should successfully create an account.
+
+h3. Other information
+
+N/A",,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,,,,,,,,,,,,,,ApprovalsCFValue{approvals=[]},,,,,{},,,,,,,,,,,,,,,,0|i00062:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,31/Oct/26 12:12 PM
+Verify customer login with valid credentials.,SEQ-20,10034,Xray Test,To Do,SEQ,ShopEasy QA,software,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,Medium,,,,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,31/Oct/26 10:46 AM,31/Oct/26 10:46 AM,31/Oct/26 10:48 AM,,,0,,,"h3. Summary
+
+Verify whether a registered customer can successfully log in using the correct email and password.
+
+h3. Context
+
+This issue is about testing customer login for registered users.
+
+h3. Acceptance criteria
+
+* A registered customer can log in successfully using the correct email and password.
+
+h3. Other information
+
+N/A",,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,,,,,,,,,,,,,,ApprovalsCFValue{approvals=[]},,,,,{},,,,,,,,,,,,,,,,0|i00067:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,31/Oct/26 10:46 AM
+Verify customer login with an unregistered email.,SEQ-21,10035,Xray Test,To Do,SEQ,ShopEasy QA,software,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,Medium,,,,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,31/Oct/26 11:04 AM,31/Oct/26 11:04 AM,31/Oct/26 11:05 AM,,,0,,,"h3. Summary
+
+Verify customer login with an unregistered email.
+
+h3. Context
+
+The issue is about customer login verification.
+
+h3. Acceptance criteria
+
+* Verify customer login with an unregistered email.
+
+h3. Other information
+
+N/A",,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,,,,,,,,,,,,,,ApprovalsCFValue{approvals=[]},,,,,{},,,,,,,,,,,,,,,,0|i00068:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,31/Oct/26 11:04 AM
+Login application should be available.,SEQ-22,10036,Precondition,To Do,SEQ,ShopEasy QA,software,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,Medium,,,,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,31/Oct/26 11:08 AM,31/Oct/26 11:08 AM,,,,0,,,"h3. Summary
+
+Login application should be available.
+
+h3. Context
+
+The issue is about making the login application available.
+
+h3. Acceptance criteria
+
+* The login application should be available.
+
+h3. Other information
+
+N/A",,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,,,,,,,,,,,,,,ApprovalsCFValue{approvals=[]},,,,,{},,,,,,,,,,,,,,,,0|i0006g:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,31/Oct/26 11:08 AM
+Register with password missing special character,SEQ-24,10038,Xray Test,To Do,SEQ,ShopEasy QA,software,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,Medium,,,,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,31/Oct/26 12:24 PM,31/Oct/26 12:28 PM,04/Nov/26 6:24 AM,,,0,TC-02,,"h3. Summary
+
+Register with a password missing a special character should not be allowed.
+
+h3. Context
+
+Special characters are mandatory for the password.
+
+h3. Acceptance criteria
+
+* Registration should be blocked if the password does not contain a special character.
+* The special character requirement must be enforced.
+
+h3. Other information
+
+N/A",,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,,,,,,,,,SEQ-4,,,,,ApprovalsCFValue{approvals=[]},,,,,{},,,,,,,,,,,,,,,,0|i0006n:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,31/Oct/26 12:24 PM
+login test set,SEQ-25,10071,Test Set,To Do,SEQ,ShopEasy QA,software,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,Medium,,,,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,09/Nov/26 7:23 PM,09/Nov/26 7:23 PM,09/Nov/26 7:23 PM,,,0,,,"h3. Summary
+
+login test set
+
+h3. Context
+
+login test set
+
+h3. Acceptance criteria
+
+login test set
+
+h3. Other information
+
+N/A",,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,,,,,,,,,,,,,,ApprovalsCFValue{approvals=[]},,,,,{},,,,,,,,,,,,,,,,0|i00070:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,09/Nov/26 7:23 PM
+user registeration test set,SEQ-26,10072,Test Set,To Do,SEQ,ShopEasy QA,software,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,Medium,,,,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,09/Nov/26 7:25 PM,09/Nov/26 7:25 PM,09/Nov/26 7:25 PM,,,0,,,"h3. Summary
+
+user registeration test set
+
+h3. Context
+
+user registeration test set
+
+h3. Acceptance criteria
+
+N/A
+
+h3. Other information
+
+N/A",,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,,,,,,,,,,,,,,ApprovalsCFValue{approvals=[]},,,,,{},,,,,,,,,,,,,,,,0|i00075:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,09/Nov/26 7:25 PM
+registration test cases test plan,SEQ-27,10073,Test Plan,To Do,SEQ,ShopEasy QA,software,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,Medium,,,,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,09/Nov/26 7:26 PM,09/Nov/26 7:26 PM,09/Nov/26 7:27 PM,,,0,,,"h3. Summary
+
+registration test cases test plan
+
+h3. Context
+
+registration test cases test plan
+
+h3. Acceptance criteria
+
+registration test cases test plan
+
+h3. Other information
+
+registration test cases test plan",,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,,,,,,,,,,,,,,ApprovalsCFValue{approvals=[]},,,,,{},,,,,,,,,,,,,,,,0|i0007h:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,09/Nov/26 7:26 PM
+Test Execution for Test Plan SEQ-27,SEQ-28,10074,Test Execution,To Do,SEQ,ShopEasy QA,software,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,Medium,,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,09/Nov/26 7:28 PM,09/Nov/26 7:28 PM,09/Nov/26 7:28 PM,,,0,,,,,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,,,,,,,,,,,,,,ApprovalsCFValue{approvals=[]},,,,,{},,,,,,,,,,,,,,,,0|i0007l:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,09/Nov/26 7:28 PM
+Account locks after 5 consecutive failed attempts,SEQ-29,10075,Xray Test,To Do,SEQ,ShopEasy QA,software,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,Medium,,,,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,09/Nov/26 7:53 PM,09/Nov/26 7:53 PM,09/Nov/26 8:21 PM,,,0,,,"h3. Summary
+
+Account locks after 5 consecutive failed login attempts.
+
+h3. Context
+
+* Story: REQ-A3 – Account Lock
+* Precondition: PRE-02
+* Priority: Highest
+
+h3. Acceptance criteria
+
+* Open the login page.
+* Enter a registered email and an incorrect password.
+* Repeat the failed login 5 consecutive times.
+* The account is locked for 15 minutes.
+
+h3. Other information
+
+N/A",,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,,,,,,,,,,,,,,ApprovalsCFValue{approvals=[]},,,,,{},,,,,,,,,,,,,,,,0|i0007w:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,09/Nov/26 7:53 PM
+Verify password reset link validity and single use,SEQ-30,10076,Xray Test,To Do,SEQ,ShopEasy QA,software,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,Medium,,,,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,09/Nov/26 8:15 PM,09/Nov/26 8:15 PM,09/Nov/26 8:15 PM,,,0,,,"h3. Summary
+
+Verify that password reset links are valid for 30 minutes and can only be used once.
+
+h3. Context
+
+* Story: REQ-A4 – Forgot Password
+* Precondition: PRE-02
+* Priority: High
+
+h3. Acceptance criteria
+
+* A password reset link can be used within 30 minutes.
+* The password reset link works only once.
+* After the password is changed, the same link cannot be reused.
+* A password reset link expired after 45 minutes is not valid.
+
+h3. Other information
+
+Steps:
+
+# Request a password reset link.
+# Open the link within 30 minutes.
+# Change the password.
+# Attempt to reuse the same link.
+# Request another reset link and attempt to open it after 45 minutes.
+
+Expected: The first link works within 30 minutes and only once. The expired link must not be valid.",,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,,,,,,,,,,,,,,ApprovalsCFValue{approvals=[]},,,,,{},,,,,,,,,,,,,,,,0|i0007z:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,09/Nov/26 8:15 PM
+login test plan,SEQ-31,10077,Test Plan,To Do,SEQ,ShopEasy QA,software,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,Medium,,,,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,09/Nov/26 8:20 PM,09/Nov/26 8:20 PM,,,,0,,,"h2. 📋 Login Test Plan
+
+{panel:bgColor=#deebff}
+login test plan
+{panel}",,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,,,,,,,,,,,,,,ApprovalsCFValue{approvals=[]},,,,,{},,,,,,,,,,,,,,,,0|i00089:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,09/Nov/26 8:20 PM
+Executing login test cases,SEQ-32,10078,Test Execution,To Do,SEQ,ShopEasy QA,software,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,Medium,,,,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,09/Nov/26 8:22 PM,09/Nov/26 8:22 PM,09/Nov/26 8:23 PM,,,0,,,"h3. Summary
+
+Executing login test cases
+
+h3. Context
+
+Executing login test cases
+
+h3. Acceptance criteria
+
+N/A
+
+h3. Other information
+
+N/A",,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,,,,,,,,,,,,,,ApprovalsCFValue{approvals=[]},,,,,{},,,,,,,,,,,,,,,,0|i0008b:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,09/Nov/26 8:22 PM

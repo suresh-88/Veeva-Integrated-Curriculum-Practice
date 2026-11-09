@@ -1,0 +1,156 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project lead id,Project description,Priority,Resolution,Assignee,Assignee Id,Reporter,Reporter Id,Creator,Creator Id,Created,Updated,Last Viewed,Resolved,Due date,Votes,Labels,Labels.1,Description,Environment,Watchers,Watchers Id,Original estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Inward issue link (Test),Outward issue link (Test),Custom field (Actual end),Custom field (Actual start),Custom field (Affected hardware),Custom field (Affected services),Custom field (Approvals),Custom field (Atlassian Project),Custom field (Change reason),Custom field (Change risk),Custom field (Change type),Custom field (Development),Custom field (Epic Color),Custom field (Epic Name),Custom field (Epic Status),Custom field (Focus Areas),Custom field (Goals),Custom field (Impact),Custom field (Incident manager),Custom field (Insights),Custom field (Issue color),Custom field (Locked forms),Custom field (Major incident),Custom field (Open forms),Custom field (Pending reason),Custom field (Project overview key),Custom field (Project overview status),Custom field (Rank),Custom field (Request Type),Custom field (Request language),Custom field (Request participants),Custom field (Responders),Satisfaction rating,Custom field (Satisfaction date),Custom field (Sentiment),Custom field (Severity),Sprint,Sprint.1,Custom field (Start date),Custom field (Status pages),Custom field (Story Points),Custom field (Story point estimate),Custom field (Submitted forms),Custom field (Target end),Custom field (Target start),Custom field (Team),Custom field (Time to close after resolution),Custom field (Time to first response),Custom field (Time to resolution),Custom field (Total forms),Custom field (Urgency),Custom field (Work category),Custom field (Work item created forms),Custom field ([CHART] Date of First Response),Custom field ([CHART] Time in Status),Parent,Parent key,Parent summary,Status category,Status category changed
+Cart and Checkout,SEQ-3,10017,Epic,To Do,SEQ,ShopEasy QA,software,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,Medium,,,,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,26/Oct/26 9:47 AM,26/Oct/26 9:47 AM,,,,0,,,"h3. Objective
+
+Provide cart and checkout functionality for the shopping app.
+
+h3. Context
+
+The app is a shopping app. It needs support for the purchase flow.
+
+h3. Scope
+
+Included:
+
+* Add products to the cart
+* Remove products from the cart
+* Order products in quantities
+* Enter and update shipping details
+* Pay using different payment types
+
+Not included:
+
+* N/A
+
+h3. Success criteria
+
+* Users can add products to a cart.
+* Users can remove products from a cart.
+* Users can set quantities for products in the cart.
+* Users can enter shipping details.
+* Users can update shipping details.
+* Users can pay using different payment types.
+
+h3. Risks and dependencies
+
+* Payment options must support different types of payment.
+* Checkout depends on shipping details being available and editable.
+
+h3. Other information
+
+* Issue name: Cart and Checkout",,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,,,,,,,,,,,,,,ApprovalsCFValue{approvals=[]},,,,,{},ghx-label-6,,To Do,,,,,,green,,,,,,,0|i0003o:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,26/Oct/26 9:47 AM
+"As a logged-in user, when I am ready to buy, I want to enter all shipping details and then place an order so that I can complete my purchase.",SEQ-16,10030,Story,Review,SEQ,ShopEasy QA,software,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,Medium,,,,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,26/Oct/26 11:04 AM,09/Nov/26 7:33 PM,27/Oct/26 10:49 AM,,,0,REQ-C5,,"h3. User story
+
+As a customer, when I use checkout, I want to log in before continuing so that I can place an order without guest checkout.
+
+As a customer, when I enter shipping details, I want all required fields to be validated so that I can complete checkout correctly.
+
+h3. Context
+
+Checkout requires login. Guest checkout is not allowed.
+
+Shipping details are mandatory.
+
+h3. Acceptance criteria
+
+* Login is required for checkout.
+* Guest checkout is not available.
+* Shipping details must be mandatory.
+* Name is required.
+* Phone number is required and must be 10 digits.
+* Address is required.
+* City is required.
+* Pin code is required and must be 6 digits.
+
+h3. Other information
+
+This story comes under requirement REQ-C5.",,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,,,,,,,,,,,,,,ApprovalsCFValue{approvals=[]},,,,,{},,,,,,,,,,,,,,,,0|i00048:6,,,,,,,,,SEQ Sprint 2,SEQ Sprint 3,,,3.0,,,,,,,,,,,,,,,10017.0,SEQ-3,Cart and Checkout,In Progress,09/Nov/26 7:31 PM
+"As a logged in customer, when I place an order, I want a confirmation page to show a unique Order ID and a confirmation email to be sent so that I know my order was received.",SEQ-18,10032,Story,To Do,SEQ,ShopEasy QA,software,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,Medium,,,,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,26/Oct/26 11:11 AM,27/Oct/26 12:06 PM,27/Oct/26 10:49 AM,,,0,REQ-C6,,"h3. User story
+
+As a logged in customer, when I place an order, I want a confirmation page to show a unique Order ID and a confirmation email to be sent so that I know my order was received.
+
+h3. Context
+
+A customer places an order while logged in. The system should confirm the order on the page and by email.
+
+h3. Acceptance criteria
+
+* When a logged in customer places an order, a confirmation page is shown.
+* The confirmation page includes a unique Order ID.
+* A confirmation email is sent after the order is placed.
+
+h3. Other information
+
+This comes under requirement REQ-C6.",,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,,,,,,,,,,,,,,ApprovalsCFValue{approvals=[]},,,,,{},,,,,,,,,,,,,,,,0|i00048:7,,,,,,,,,SEQ Sprint 3,,,,5.0,,,,,,,,,,,,,,,10017.0,SEQ-3,Cart and Checkout,To Do,26/Oct/26 11:11 AM
+"As a logged in customer, when I place an order, I want to pay by Card, UPI, or Cash on Delivery so that I can complete my purchase.",SEQ-17,10031,Story,To Do,SEQ,ShopEasy QA,software,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,Medium,,,,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,26/Oct/26 11:09 AM,27/Oct/26 12:06 PM,27/Oct/26 10:49 AM,,,0,REQ-C6,,"h3. User story
+
+As a logged in customer, when I place an order, I want to pay by Card, UPI, or Cash on Delivery so that I can complete my purchase.
+
+h3. Context
+
+A logged in customer is placing an order and needs payment options to complete the purchase.
+
+h3. Acceptance criteria
+
+* The customer can pay by Card.
+* The customer can pay by UPI.
+* The customer can pay by Cash on Delivery.
+* The customer can complete the purchase after choosing one of these payment methods.
+
+h3. Other information
+
+This comes under requirement REQ-C6.",,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,,,,,,,,,,,,,,ApprovalsCFValue{approvals=[]},,,,,{},,,,,,,,,,,,,,,,0|i00048:9,,,,,,,,,SEQ Sprint 3,,,,5.0,,,,,,,,,,,,,,,10017.0,SEQ-3,Cart and Checkout,To Do,26/Oct/26 11:09 AM
+"As a logged in shopper, I want the cart icon to show the total number of items in the cart so that I can know how many items I have in it.",SEQ-13,10027,Story,To Do,SEQ,ShopEasy QA,software,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,Medium,,,,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,26/Oct/26 10:51 AM,27/Oct/26 10:51 AM,27/Oct/26 10:51 AM,,,0,REQ-C1,REQ-C3,"h3. User story
+
+* As a logged-in shopper, when I add and remove items from my cart, I want the cart icon to show the total number of items in the cart so that I can quickly see how many items I have.
+* As a logged in shopper, when my cart is empty, I want to see a message so that I know there are no items in the cart.
+
+h3. Context
+
+The cart should give a clear visual indication of how many items are in it. It should also show an empty-cart message when there are no items.
+
+h3. Acceptance criteria
+
+* The cart icon shows the total number of items in the cart.
+* The cart icon updates when items are added.
+* The cart icon updates when items are removed.
+* When the cart is empty, a message is shown.
+* The empty-cart message indicates that there are no items in the cart.
+
+h3. Other information
+
+* This story comes under requirements REQ-C1,REQ-C3.",,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,,,,,,,,,,,,,,ApprovalsCFValue{approvals=[]},,,,,{},,,,,,,,,,,,,,,,0|i0005c:,,,,,,,,,,,,,2.0,,,,,,,,,,,,,,,10017.0,SEQ-3,Cart and Checkout,To Do,26/Oct/26 10:51 AM
+"As a logged-in shopper, when I have items in my cart, I want to change the quantity of each item from 1 to 10 or remove items from the cart so that the line total is updated correctly.",SEQ-14,10028,Story,To Do,SEQ,ShopEasy QA,software,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,Medium,,,,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,26/Oct/26 10:54 AM,27/Oct/26 10:52 AM,27/Oct/26 10:51 AM,,,0,REQ-C2,,"h3. User story
+
+As a logged-in shopper, when I have items in my cart, I want to change the quantity of each item from 1 to 10 or remove items from the cart so that the line total is updated correctly.
+
+h3. Context
+
+Each item in the cart supports a quantity range from 1 to 10.
+
+h3. Acceptance criteria
+
+* Each item in the cart can have a quantity from 1 to 10.
+* Changing the quantity updates the line total.
+* Removing an item from the cart updates the line total.
+
+h3. Other information
+
+This story comes under requirement REQ-C2.",,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,,,,,,,,,,,,,,ApprovalsCFValue{approvals=[]},,,,,{},,,,,,,,,,,,,,,,0|i0005o:,,,,,,,,,,,,,3.0,,,,,,,,,,,,,,,10017.0,SEQ-3,Cart and Checkout,To Do,26/Oct/26 10:54 AM
+"As a logged in user, when I have a cart value of Rs. 1,000 or more, I want to apply coupon code SAVE10 so that I can get a 10% discount.",SEQ-15,10029,Story,To Do,SEQ,ShopEasy QA,software,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,Medium,,,,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,26/Oct/26 10:57 AM,27/Oct/26 10:52 AM,27/Oct/26 10:52 AM,,,0,REQ-C4,,"h3. User story
+
+As a logged in user, when I have a cart value of Rs. 1,000 or more, I want to apply coupon code SAVE10 so that I can get a 10% discount.
+
+h3. Context
+
+Users can apply a coupon during checkout. The coupon code is SAVE10.
+
+h3. Acceptance criteria
+
+* The coupon code SAVE10 can be applied by a logged in user.
+* The coupon gives a 10% discount.
+* The discount applies only when the cart value is Rs. 1,000 or more.
+* Only one coupon can be used per order.
+
+h3. Other information
+
+This story comes under requirement REQ-C4.",,Suresh Katta,712020:15fafc43-ca94-4dcd-ac92-583cf8f17b4c,,,,,,,,,,,,,,,ApprovalsCFValue{approvals=[]},,,,,{},,,,,,,,,,,,,,,,0|i0005w:,,,,,,,,,,,,,2.0,,,,,,,,,,,,,,,10017.0,SEQ-3,Cart and Checkout,To Do,26/Oct/26 10:57 AM
