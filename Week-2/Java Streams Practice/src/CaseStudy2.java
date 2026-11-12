@@ -1,5 +1,6 @@
 import java.util.*;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class CaseStudy2 {
     public static void main(String[] args){
@@ -32,12 +33,22 @@ public class CaseStudy2 {
                     System.out.println("List2 : {sum="+stats2.getSum()+" max="+stats2.getMax()+" min="+stats2.getMin()+" avg="+stats2.getAverage()+"}");
                     break;
                 case 3:
+                    System.out.println("Enter k ");
+                    int k = sc.nextInt();
+                    System.out.println(list1.stream().collect(Collectors.groupingBy(n -> n, Collectors.counting())).entrySet().stream().sorted((a, b) -> b.getValue().compareTo(a.getValue())).limit(k).toList());
+                    System.out.println(list2.stream().collect(Collectors.groupingBy(n -> n, Collectors.counting())).entrySet().stream().sorted((a, b) -> b.getValue().compareTo(a.getValue())).limit(k).toList());
                     break;
                 case 4:
+                    System.out.println(list1.stream().collect(Collectors.groupingBy(n -> n, Collectors.counting())).entrySet().stream().sorted((a, b) -> b.getValue().compareTo(a.getValue())).skip(1).limit(1).toList());
+                    System.out.println(list1.stream().collect(Collectors.groupingBy(n -> n, Collectors.counting())).entrySet().stream().sorted((a, b) -> b.getValue().compareTo(a.getValue())).skip(1).limit(1).toList());
                     break;
                 case 5:
+                    List<Integer> mergedList = Stream.concat(list1.stream(), list2.stream()).toList();
+                    mergedList.forEach(x-> System.out.print(x+" "));
+                    System.out.println();
                     break;
                 case 6:
+                    System.out.println(list1.stream().filter(list2::contains).toList());
                     break;
                 case 7:
                     System.exit(4);

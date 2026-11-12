@@ -7,10 +7,13 @@ public class Main {
     public static void main() throws InterruptedException {
         ChromeDriver driver = new ChromeDriver();
         driver.get("https://demoqa.com/automation-practice-form");
+        //ID Locator
         driver.findElement(By.id("firstName")).sendKeys("Suresh");
         driver.findElement(By.id("lastName")).sendKeys("katta");
-        driver.findElement(By.id("userEmail")).sendKeys("Suresh1234@gmail.com");
-        driver.findElement(By.id("userNumber")).sendKeys("9948895393");
+        //Class Locator
+        driver.findElement(By.className("mr-sm-2 form-control")).sendKeys("Suresh1234@gmail.com");
+        driver.findElement(By.className(" mr-sm-2 form-control")).sendKeys("9948895393");
+        //CSS Selector Locator
         driver.findElement(By.cssSelector("input#gender-radio-1")).click();
         Thread.sleep(5000);
         driver.close();
