@@ -3,7 +3,7 @@ package package1;
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Main {
+public class Locators {
     public static void main() throws InterruptedException {
         ChromeDriver driver = new ChromeDriver();
         driver.get("https://demoqa.com/automation-practice-form");

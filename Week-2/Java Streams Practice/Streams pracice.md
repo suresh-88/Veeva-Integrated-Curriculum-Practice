@@ -113,29 +113,39 @@ Create ArrayList of n Strings probably representing names of different programmi
 
 
 
-&#x09;	Practical Problems on streams
+&#x09;			Practical Problems on streams
 
 
 
-1. construct a list of employees where each employee represents following attributes (id name job date salary dept) now find the top earning employees in each department dept wise.
-2. You have a list of company objects and each company contains list of employee objects the attributes of company are (id name location type) and attributes of employee are (id name salary). Now find a flat list of all employee names across all the companies.
-3. Consider collection of patient objects in healthcare data with the following attributes (patient id, name, department, doctor name diagnosis treatment given, patient type, heart rate, BP, sugar value, severity) now
+1. construct a list of employees where each employee represents following attributes (id name job skills salary dept) now 
+
+
+
+* find the top earning employees in each department dept wise.
+* find names of employees in engineering department who have more than 80000 salary sort alphabetically based on name
+* extracted the de-duplicated list of all employee skills that start with j
+* group all employees by department but only include employees earning more than 1 lakh salary
+* filter stream of employees so that only first employee per department
+
+
+
+2\. You have a list of company objects and each company contains list of employee objects the attributes of company are (id name location type) and attributes of employee are (id name salary). Now find a flat list of all employee names across all the companies.
+
+
+
+3\. Consider collection of patient objects in healthcare data with the following attributes (patient id, name, department, doctor name diagnosis treatment given, patient type, heart rate, BP, sugar value, severity) now
+
 * find all active icu patients
-* find all active icu patients with elevated heart rate(>100) 
+* find all active icu patients with elevated heart rate(>100)
 * sort the patients by severity
 
 
 
-&#x09;	Questions
+&#x09;			Questions
 
 
 
 1. Create a list of strings and filter out strings with length at least 4 convert them into uppercase remove duplicates sort naturally and finally collect the output strings produce the output after every stage , Given a string find first non repeating character in the string
 2. Given array of n integers the task is return values greater than 5 square them remove duplicates and sort in ascending order
 given list of integer find only the elements which occur more than once.
-3. Construct a list of employees
-* find names of employees in engineering department who have more than 80000 salary sort alphabetically based on name
-* extracted the duplicated list of all employee skills that start with java
-* group all employees by department but only include employees earning more than 1 lakh salary
-* filter stream of employees so that only first employee per department
 
