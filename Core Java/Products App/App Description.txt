@@ -1,0 +1,7 @@
+Develop a java application that stores product details as collection of objects the details include product id, name, price, company name, date of manufacturing, quantity in hand . When we store product details if the quantity in hand is < 100 , it should not be placed into data repository and deal this situation by raising an exception . Once product details are stored then sort and display the products based on diff criteria like based on price descending order, based on range of price descending order, based on price and date of manufactured combination descending order . Now execute queries to explore product details like :
+based on date of manufacturing
+based on price
+based on company name and price
+based on price top k products
+based on least price k products
+
