@@ -18,6 +18,7 @@ public class Locators {
         driver.findElement(By.partialLinkText("Online")).click();
         //CSS Selector Locator
         driver.findElement(By.cssSelector("input#gender-radio-1")).click();
+        driver.findElement(By.cssSelector("input[@id='gender-radio-1']")).click();
         Thread.sleep(5000);
         driver.close();
     }
