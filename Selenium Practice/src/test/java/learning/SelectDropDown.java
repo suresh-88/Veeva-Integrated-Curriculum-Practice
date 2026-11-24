@@ -4,11 +4,11 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
+import java.util.List;
 
-public class DropdownLocator {
+public class SelectDropDown {
     public static void main() {
         EdgeDriver driver = new EdgeDriver();
         //implicit wait
@@ -16,8 +16,7 @@ public class DropdownLocator {
         driver.get("https://demo.automationtesting.in/Register.html");
         driver.manage().window().maximize();
 
-
-        //for non auto suggestive dropdowns
+        //for non auto suggestive dropdowns - select dropdown
         WebElement dropdown = driver.findElement(By.id("Skills"));
         Select s = new Select(dropdown);
         //selecting by index
@@ -26,10 +25,13 @@ public class DropdownLocator {
         s.selectByValue("C");
         //selecting by visible text
         s.selectByVisibleText("Android");
+        //counting options
+        List<WebElement> options = s.getOptions();
+        System.out.println("no.of options = "+options.size());
+        //printing all options
+        for(WebElement option:options)
+            System.out.println(option.getText());
 
-        //for auto-suggestive dropdown
-        driver.findElement(By.id("select2-country-container")).sendKeys("jap");
-        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
     }
 }
 
