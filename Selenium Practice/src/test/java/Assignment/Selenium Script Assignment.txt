@@ -1,0 +1,7 @@
+Selenium Script Examples
+
+1. locate a search box using different strategies like id, name, xpath, css selector and type a specific query into it
+2. Link Interaction : find all links in a page and print their count
+3. Link Interaction : Find all links on a page and click a specific link using linkText
+4. Alerts and popups : Write a script to a java script alert retrieve it's text then accept or dismiss it
+5. Mouse Actions : Perform a mouse over (hover) on a menu item to reveal sub menu using Actions class
