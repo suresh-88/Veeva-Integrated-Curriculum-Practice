@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, sans-serif;
+        }
+
+        body{
+            background:#f4f6f9;
+            height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+        }
+
+        .container{
+            width:400px;
+            background:#fff;
+            padding:25px;
+            border-radius:10px;
+            box-shadow:0 4px 12px rgba(0,0,0,0.15);
+        }
+
+        h2{
+            text-align:center;
+            margin-bottom:20px;
+            color:#333;
+        }
+
+        .form-group{
+            margin-bottom:15px;
+        }
+
+        label{
+            display:block;
+            margin-bottom:5px;
+            font-weight:bold;
+            color:#444;
+        }
+
+        input, select{
+            width:100%;
+            padding:10px;
+            border:1px solid #ccc;
+            border-radius:5px;
+        }
+
+        .terms{
+            display:flex;
+            align-items:center;
+            gap:8px;
+            margin-bottom:15px;
+        }
+
+        .terms input{
+            width:auto;
+        }
+
+        button{
+            width:100%;
+            padding:12px;
+            border:none;
+            border-radius:5px;
+            background:#0078d7;
+            color:white;
+            font-size:16px;
+            cursor:pointer;
+        }
+
+        button:hover{
+            background:#005fa3;
+        }
+
+        .success-message{
+            display:none;
+            text-align:center;
+            padding:20px;
+        }
+
+        .success-message h3{
+            color:green;
+            margin-bottom:10px;
+        }
+
+        .success-message p{
+            color:#555;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Login Form -->
+    <div id="formSection">
+        <h2>Login Form</h2>
+
+        <form id="loginForm">
+
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" required>
+            </div>
+
+            <div class="form-group">
+                <label for="country">Country</label>
+                <select id="country" required>
+                    <option value="">-- Select Country --</option>
+                    <option>India</option>
+                    <option>USA</option>
+                    <option>United Kingdom</option>
+                    <option>Canada</option>
+                    <option>Australia</option>
+                </select>
+            </div>
+
+            <div class="terms">
+                <input type="checkbox" id="terms" required>
+                <label for="terms">
+                    I agree to the Terms and Conditions
+                </label>
+            </div>
+
+            <button type="submit">Login</button>
+
+        </form>
+    </div>
+
+    <!-- Confirmation Message -->
+    <div class="success-message" id="successMessage">
+        <h3>✅ Login Successful!</h3>
+        <p>Thank you for registering.</p>
+        <p>Your details have been submitted successfully.</p>
+    </div>
+
+</div>
+
+<script>
+    document.getElementById("loginForm").addEventListener("submit", function(event) {
+        event.preventDefault();
+
+        // Hide form
+        document.getElementById("formSection").style.display = "none";
+
+        // Show confirmation message
+        document.getElementById("successMessage").style.display = "block";
+    });
+</script>
+
+</body>
+</html>
